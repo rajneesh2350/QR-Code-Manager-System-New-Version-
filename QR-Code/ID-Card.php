@@ -2,10 +2,10 @@
 // Google Sheets Data Viewer for PHP 7.4.33
 // Using direct HTTP requests to avoid Composer dependency issues
 // Configuration
-//https://docs.google.com/spreadsheets/d/1opQXSz0pRk6653AISkOXj6JnP6oM349FTAwgdHuIg_w/edit?usp=sharing SAMPLE
-//https://docs.google.com/spreadsheets/d/14WhTQFcq1LT7wEuVYAectQ8eD-SCCNRJD2RDMcjIjWE/edit?usp=sharing
-$spreadsheetId = '1opQXSz0pRk6653AISkOXj6JnP6oM349FTAwgdHuIg_w';
-$apiKey = 'AIzaSyA98uR7DPyY6R5TD5rkWsBaKgZ48DBH9X0';
+//https://docs.google.com/spreadsheets/d/1opQXSz0pRk6653AISkOXj6JnjhkikP6oM349FTAwgdHuIg_w/edit?usp=sharing SAMPLE
+//https://docs.google.com/spreadsheets/d/14WhTQFcq1LT7wEuVYAectQ8eD-SCCNRJ555D2RDMcjIjWE/edit?usp=sharing
+$spreadsheetId = '1opQXSz0555pRk6653AISkOXj6JnP6oM340009FTAwgdHuIg_w';
+$apiKey = 'AIzaSyA98uR7DPyY6R5TD5r666kWsBaKgZ48DBH9X0';
 $range = 'Sheet1';
 $checkatt = 50;
 // Function to fetch data from Google Sheets using direct HTTP request
