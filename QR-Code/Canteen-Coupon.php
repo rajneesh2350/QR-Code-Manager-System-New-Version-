@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php
 // SECURE QR GENERATION: Fetch the image on the server so the URL is completely hidden from the browser source code!
-$staffAppUrl = "https://igipess.du.ac.in/QR-Code/staff-scanner.php";
+$staffAppUrl = "QR-Code/staff-scanner.php";
 $apiReqUrl = "https://api.qrserver.com/v1/create-qr-code/?size=500x500&margin=2&data=" . urlencode($staffAppUrl);
 $imageBytes = @file_get_contents($apiReqUrl);
 // Encrypt the image into Base64 format
